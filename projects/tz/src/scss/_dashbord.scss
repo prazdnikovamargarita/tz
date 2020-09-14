@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+.dashbord{
+    background: #3782D1; /* Для старых браузров */
+    background: linear-gradient(to top,#3782D1, #149cbf);
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    &__logo{
+        display: flex;
+        align-items: center;
+        &_home{
+            display: inline-block;
+            text-decoration: none;
+            vertical-align: middle;
+        }
+        &_icon{
+            color: white;
+            font-size: 12px;
+            font-family: 'Noto Sans JP', sans-serif;
+            padding-left: 30px;
+            font-weight: 200;
+            
+            margin-top: 3px;
+            &::before{
+                content: url("../img/dashboard-16.png");;
+                align-items: center;
+                vertical-align: middle;
+                padding-right: 5px;
+            }
+        }
+    }
+    &__log-in{
+        font-size: 12px;
+        font-family: 'Noto Sans JP', sans-serif;
+        height: 17px;
+        vertical-align: middle;
+        align-items: center;
+        align-self: center;
+        font-weight: 200;
+        margin-top: -1px;
+    }
+    &__log-in_email{
+        color: white;
+        font-size: 12px;
+        font-family: 'Noto Sans JP', sans-serif;
+        padding-right: 5px;
+
+        &::after{
+                content: ("");
+                border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 12px;
+    margin-bottom: 1px;
+
+        }       
+
+    }
+}

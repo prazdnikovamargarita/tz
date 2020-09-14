@@ -1,0 +1,89 @@
+.content{
+    display: flex;
+}
+.info{
+    background-color: #EDF0F6;
+    width: 100%;
+    padding: 30px;
+    &__account{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        &_title{
+            font-weight: 200;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        &_btn{
+            padding: 3px 10px;
+            font-family: 'Noto Sans JP', sans-serif;
+            cursor: pointer;
+            
+        }
+    }
+   
+   
+}
+.info__main{
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.verify{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: #feedcb;
+    margin-bottom: 10px;
+    .fas{
+        color: #FFAE0B;
+        margin-right: 7px;
+
+    }
+    &_text{
+        font-size: 12px;
+    }
+    span{
+        font-weight: bold;
+    }
+}
+.main-content{
+    display: flex;
+    
+    flex-wrap: wrap;
+    &_label{
+        margin-right: 45px;
+        width: 77px;
+        box-sizing: border-box;
+        display: inline-block;
+        padding-bottom:5px ;
+    }
+    &_password{
+            border-color:#dce0e5;
+            box-sizing: content-box;
+            width: 235px;
+            padding: 5px;
+            margin-left: 30px;
+            margin-bottom:5px ;
+            &.first{
+                margin-left: 0px;
+            }
+            
+        }
+        i {
+            margin-left: -35px;
+            cursor: pointer;
+            color: #838ead;
+        }
+    
+          
+    &_btn{
+        padding: 5px;
+        background-color: #09c5e7;
+        color: white;
+        border-color: #09c5e7;
+        border-radius: 3px;
+        width: 89px;
+        margin-left: 40px;
+    }
+}
